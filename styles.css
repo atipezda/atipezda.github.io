@@ -1,0 +1,140 @@
+canvas{
+    /* border: 2px solid; */
+    /* border-width: 3px; */
+    /* border-color: black; */
+}
+
+html{
+    background-image: url('prism.png');
+    scroll-behavior: smooth;
+}
+
+main{
+    position: absolute;
+    margin: 0%;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.45);
+
+}
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    background-image: url('prism.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 20px;
+    /* position: fixed; */
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    text-shadow: 2px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.30);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    color: beige;
+}
+#who{
+    margin: 0;
+    border-color: beige;
+}
+
+#photo{
+    text-shadow: 2px 3px 0px #6b6b6b, 9px 8px 0px rgba(0,0,0,0.30);
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: rgba(255,255,255, 0.5);
+    text-align: center;
+    font-style: italic;
+}
+
+#me{
+    margin: 0;
+    opacity: 0.8;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.scrldwn{
+    box-shadow: 2px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.30);
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    margin-top: 90vh;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    animation: butt 8s linear infinite;
+}
+.scrltop{
+    box-shadow: 2px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.30);
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    animation: butt 8s linear infinite;
+}
+
+
+
+.animatee{
+    animation: myAni;
+    animation-duration: 8s;
+
+}
+@keyframes myAni {
+  0%   {color:transparent; width: 0%;font-size:0px;}
+  10% {color: beige;font-size: 20px;width: 100%}
+  40% {font-size: 20px;}
+  50% {font-size: 30px;}
+  60% {font-size: 20px;}
+  90% {color: beige;font-size: 20px;width: 100%}
+  100% {color:transparent; width: 200%;font-size:0px;}
+}
+  
+  
+
+
+#projects{
+    height: 100vh;
+    width: 100%;
+    /* position: fixed; */
+}
+
+#can{
+    height: 100vh;
+    width: 100%;
+}
+
+.paused{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused; 
+    animation-play-state:paused;
+}
+
